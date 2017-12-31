@@ -1,0 +1,28 @@
+
+
+ ul li { 
+ display: block;
+ position:relative;
+ 
+ }
+li ul {
+ display: none;
+}
+
+ ul li a:hover {
+background: #999999;
+} 
+li:hover ul {
+ display: block; 
+ position: absolute;
+ float:left;
+}
+|li:hover li {
+float: inherit;
+}
+li:hover a {
+ background: #CCCCCC;
+}
+#drop-nav li ul li {
+border-top: 1px;
+}
